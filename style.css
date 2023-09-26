@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    /*
+    background-image: url(./assets/bg-mobile.jpg) ;
+    background-repeat: no-repeat;
+    background-positon:top center;
+    background-size: cover
+    
+    */
+
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  }
+
+  body *{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+
+  }
+
+  
+
+  #conteiner{
+    width: 360px;
+    margin: 56px auto 0px ;
+    padding: 24px;
+
+  }
+
+  #profile{
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+
+
+  #profile img{
+    width: 112px;
+    border-radius: 50% ;
+    border: 2px solid white;
+
+  }
+
+  #profile p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    }
+
+    /* Links */
+
+    ul{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px 0;
+    
+    }
+
+    ul li a {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 24px;
+
+      background: rgba(255, 255, 255,0.1);
+      border: 1px solid rgba(255, 255, 255,0.5);
+      border-radius: 8px;
+      backdrop-filter:blur(4px);
+
+      text-decoration: none;
+      font-weight: 500;
+      
+
+      transition: backgorund 0.2s;
+
+
+    }
+
+    ul li a:hover{
+      background: rgba(255, 255, 255,0.05);
+      border: 1,5px solid white ;
+    }
+
+    #social-links{
+      display: flex;
+      justify-content: center;
+      padding: 24px 0;
+      font-size: 24px;
+     
+    }
+
+
+    #social-links a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      border-radius: 50%;
+
+      transition: backgound 0.2s;
+    }
+
+    #social-links a:hover{
+      background: rgba(255 ,255 ,255, 0.2);
+      
+    }
+
+    footer{
+      text-align: center;
+      font-weight: 400;
+      font-size: 14px;
+    }
