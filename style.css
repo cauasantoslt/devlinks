@@ -13,8 +13,8 @@ body{
     
     */
 
-    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
-    height: 100%vh;
+    background: url(./assets/background.jpg) no-repeat top center/cover;
+    height: 95vh;
   }
 
   body *{
@@ -120,4 +120,12 @@ body{
       font-size: 14px;
     }
 
-
+   @media (min-width:800px){
+    ion-icon{
+      color: #ffffff;
+      padding: 16px;
+      border-radius: 50%;
+      background: rgba(0, 183, 255, 0.082);
+      backdrop-filter:blur(4px);
+    }
+   }
